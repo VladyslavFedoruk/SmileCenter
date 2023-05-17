@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: 0
+}
+
+.container {
+    max-width: 1504px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media screen and (max-width: 1650px) {
+        max-width: 1200px;
+    }
+
+    @media screen and (max-width: 1210px) {
+        max-width: 688px;
+    }
+
+    @media screen and (max-width: 690px) {
+        max-width: 333px;
+    }
+}

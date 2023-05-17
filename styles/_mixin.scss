@@ -1,0 +1,12 @@
+@mixin primary-color {
+    color: #497D8F;
+}
+
+@mixin mainColor {
+    font-family: 'Roboto',
+        sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 130%;
+    color: #2A2A2A;
+}
