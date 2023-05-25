@@ -30,11 +30,11 @@
                         </li>
 
                         <li class="header_menu-list-item">
-                            <a class="header_menu-list-item-link" href="/">Послуги</a>
+                            <a class="header_menu-list-item-link" href="./pages/services.html">Послуги</a>
                         </li>
 
                         <li class="header_menu-list-item">
-                            <a class="header_menu-list-item-link" href="/">Команда </a>
+                            <a class="header_menu-list-item-link" href="">Команда </a>
                         </li>
 
                         <li class="header_menu-list-item">
@@ -61,7 +61,7 @@
                                 зберегти вашу посмішку. Пропонуємо весь спектр послуг та конплексний піідхід до
                                 вирішення
                                 будь-яких проблем.</p>
-                            <button class="hero_content-left-button">Записатися</button>
+                            <button id="toothBtn" class="hero_content-left-button">Записатися</button>
                         </div>
                         <div class="hero_content-right">
                             <img class="hero_content-right--img" src="./images/hero_img.png" alt="hero_img">
@@ -434,7 +434,6 @@
                                     </div>
                                 </div>
                             </li>
-
                         </ul>
                     </div>
                 </div>
@@ -639,11 +638,48 @@
         </div>
     </footer>
 
+
+
+    <div id="toothModal" class="modal">
+        <div class="form_content modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+            </div>
+            <div class="form_content-desc">
+                <h3 class="form_content-desc_main">Залиште заявку </h3>
+                <span class="form_content-desc_sub">Наш адміністратор зателефонує Вам протягом 5 хвилин</span>
+            </div>
+            <div class="form_content-form">
+                <form class="formValidation">
+                    <div class="name">
+                        <div class="labelFirst">
+                            <label>Ваше Ім’я</label>
+                        </div>
+                        <div>
+                            <input required maxlength="30" type="text" class="FirstName" placeholder="Ім’я" />
+                        </div>
+                    </div>
+                    <div class="phone">
+                        <div class="labelSecond">
+                            <label>Телефон</label>
+                        </div>
+                        <div>
+                            <input maxlength="10" required type="tel" class="phoneNumber"
+                                placeholder="+380 (00) 000 00 00" />
+                        </div>
+                    </div>
+                    <button class="validateBtn" type="submit">Зателефонувати мені</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <script defer src="https://code.jquery.com/jquery-3.6.4.min.js"
         integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <script defer type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script defer src="./scripts/slider.js"></script>
     <script defer src="./scripts/validation.js"></script>
+    <script src="./scripts/modal.js"></script>
 </body>
 
 </html>

@@ -5,6 +5,10 @@ main {
     position: relative;
 }
 
+button {
+    cursor: pointer;
+}
+
 
 .header {
     &_content {
@@ -2020,4 +2024,780 @@ main {
 
 .slick-active>button {
     background: #2f6980 !important;
+}
+
+
+.dental {
+    margin-top: 61px;
+    height: 100%;
+
+    .tabs {
+        margin: 0 auto;
+        margin-bottom: 115px;
+        display: flex;
+        gap: 43px;
+        justify-content: center;
+
+    }
+
+    .b-tab {
+        padding: 10px;
+        display: none;
+    }
+
+    .b-tab.active2 {
+        border: none;
+        display: block;
+    }
+
+    .b-nav-tab {
+        border: none;
+        display: inline-block;
+        padding: 10px;
+        color: #2A2A2A;
+        width: 169px;
+        height: 64px;
+        background: #EAEAEA;
+        border-radius: 20px;
+        font-size: 16px;
+    }
+
+
+    .b-nav-tab.active2 {
+        color: #2A2A2A;
+        background: #C1E0EB;
+        border-radius: 20px;
+    }
+
+    .buttonEstatic {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 140%;
+        color: #2A2A2A;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        fill: #808080;
+    }
+
+    .buttonTerapevt {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 140%;
+        color: #2A2A2A;
+        display: flex;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        fill: #808080;
+    }
+
+    .buttonOrtoped {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 140%;
+        color: #2A2A2A;
+        display: flex;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        fill: #808080;
+    }
+
+    .buttonSurgery {
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 140%;
+        color: #2A2A2A;
+        display: flex;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        fill: #808080;
+    }
+
+    .buttonChild {
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 140%;
+        color: #2A2A2A;
+        display: flex;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        fill: #808080;
+    }
+
+    .buttonOrtodont {
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 140%;
+        color: #2A2A2A;
+        display: flex;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        fill: #808080;
+    }
+
+    .active2 {
+        svg {
+            fill: #497D8F
+        }
+    }
+
+    .estatic {
+        &_title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 110%;
+            font-family: 'Roboto',
+                sans-serif;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            margin-bottom: 56px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        &_services {
+            &-list {
+                display: flex;
+                justify-content: space-between;
+                gap: 50px;
+                margin-bottom: 94px;
+
+                &--item {
+                    max-width: 424px;
+
+                    h3 {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 130%;
+                        color: #2A2A2A;
+                        margin-bottom: 40px;
+                    }
+
+                    .item_desc {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 130%;
+                        color: #4C4C4C;
+                        margin-bottom: 40px;
+                    }
+
+                    .item_price {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 22px;
+                        line-height: 130%;
+                        color: #2A2A2A;
+                    }
+                }
+            }
+
+            &-button {
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Roboto',
+                    sans-serif;
+                width: 223px;
+                height: 70px;
+                background: #F5F042;
+                border-radius: 35px;
+                border: 0;
+                cursor: pointer;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 110%;
+                color: #2A2A2A;
+                margin-bottom: 24px;
+                margin-bottom: 124px;
+            }
+
+            &-button:hover {
+                background: #6391a0;
+                transition: 0.4s;
+            }
+        }
+    }
+
+    .terapevt {
+        &_title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 110%;
+            font-family: 'Roboto',
+                sans-serif;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            margin-bottom: 56px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        &_services {
+            &-list {
+
+                display: flex;
+                justify-content: space-between;
+                gap: 50px;
+                margin-bottom: 94px;
+
+                &--item {
+                    max-width: 430px;
+
+                    h3 {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 130%;
+                        color: #2A2A2A;
+                        margin-bottom: 40px;
+                    }
+
+                    .item_desc {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 130%;
+                        color: #4C4C4C;
+                        margin-bottom: 40px;
+                    }
+
+                    .item_price {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 22px;
+                        line-height: 130%;
+                        color: #2A2A2A;
+                    }
+                }
+            }
+
+            &-button {
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Roboto',
+                    sans-serif;
+                width: 223px;
+                height: 70px;
+                background: #F5F042;
+                border-radius: 35px;
+                border: 0;
+                cursor: pointer;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 110%;
+                color: #2A2A2A;
+                margin-bottom: 24px;
+                margin-bottom: 124px;
+            }
+
+            &-button:hover {
+                background: #6391a0;
+                transition: 0.4s;
+            }
+        }
+    }
+
+    .ortoped {
+        &_title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 110%;
+            font-family: 'Roboto',
+                sans-serif;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            margin-bottom: 56px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        &_services {
+            &-list {
+                display: flex;
+                justify-content: space-between;
+                gap: 50px;
+                margin-bottom: 94px;
+
+                &--item {
+                    max-width: 424px;
+
+                    h3 {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 130%;
+                        color: #2A2A2A;
+                        margin-bottom: 40px;
+                    }
+
+                    .item_desc {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 130%;
+                        color: #4C4C4C;
+                        margin-bottom: 40px;
+                    }
+
+                    .item_price {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 22px;
+                        line-height: 130%;
+                        color: #2A2A2A;
+                    }
+                }
+            }
+
+            &-button {
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Roboto',
+                    sans-serif;
+                width: 223px;
+                height: 70px;
+                background: #F5F042;
+                border-radius: 35px;
+                border: 0;
+                cursor: pointer;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 110%;
+                color: #2A2A2A;
+                margin-bottom: 24px;
+                margin-bottom: 124px;
+            }
+
+            &-button:hover {
+                background: #6391a0;
+                transition: 0.4s;
+            }
+        }
+    }
+
+    .surgery {
+        &_title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 110%;
+            font-family: 'Roboto',
+                sans-serif;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            margin-bottom: 56px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        &_services {
+            &-list {
+                display: flex;
+                // justify-content: space-between;
+                gap: 50px;
+                justify-content: center;
+                margin-bottom: 94px;
+
+                &--item {
+                    // max-width: 424px;
+
+                    h3 {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 130%;
+                        color: #2A2A2A;
+                        margin-bottom: 40px;
+                    }
+
+                    .item_desc {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 130%;
+                        color: #4C4C4C;
+                        margin-bottom: 40px;
+                    }
+
+                    .item_price {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 22px;
+                        line-height: 130%;
+                        color: #2A2A2A;
+                    }
+                }
+            }
+
+            &-button {
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Roboto',
+                    sans-serif;
+                width: 223px;
+                height: 70px;
+                background: #F5F042;
+                border-radius: 35px;
+                border: 0;
+                cursor: pointer;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 110%;
+                color: #2A2A2A;
+                margin-bottom: 24px;
+                margin-bottom: 124px;
+            }
+
+            &-button:hover {
+                background: #6391a0;
+                transition: 0.4s;
+            }
+        }
+    }
+
+    .child {
+        &_title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 110%;
+            font-family: 'Roboto',
+                sans-serif;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            margin-bottom: 56px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        &_services {
+            &-list {
+                display: flex;
+
+                gap: 50px;
+                justify-content: center;
+                margin-bottom: 94px;
+
+                &--item {
+                    max-width: 731px;
+
+                    h3 {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 130%;
+                        color: #2A2A2A;
+                        margin-bottom: 40px;
+                    }
+
+                    .item_desc {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 130%;
+                        color: #4C4C4C;
+                        margin-bottom: 40px;
+                    }
+
+                    .item_price {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 22px;
+                        line-height: 130%;
+                        color: #2A2A2A;
+                    }
+                }
+            }
+
+            &-button {
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Roboto',
+                    sans-serif;
+                width: 223px;
+                height: 70px;
+                background: #F5F042;
+                border-radius: 35px;
+                border: 0;
+                cursor: pointer;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 110%;
+                color: #2A2A2A;
+                margin-bottom: 24px;
+                margin-bottom: 124px;
+            }
+
+            &-button:hover {
+                background: #6391a0;
+                transition: 0.4s;
+            }
+        }
+    }
+
+    .ortodont {
+        &_title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 110%;
+            font-family: 'Roboto',
+                sans-serif;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            margin-bottom: 56px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        &_services {
+            &-list {
+                display: flex;
+
+                gap: 50px;
+                justify-content: center;
+                margin-bottom: 94px;
+
+                &--item {
+                    max-width: 731px;
+
+                    h3 {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 130%;
+                        color: #2A2A2A;
+                        margin-bottom: 40px;
+                    }
+
+                    .item_desc {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 130%;
+                        color: #4C4C4C;
+                        margin-bottom: 40px;
+                    }
+
+                    .item_price {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 22px;
+                        line-height: 130%;
+                        color: #2A2A2A;
+                    }
+                }
+            }
+
+            &-button {
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Roboto',
+                    sans-serif;
+                width: 223px;
+                height: 70px;
+                background: #F5F042;
+                border-radius: 35px;
+                border: 0;
+                cursor: pointer;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 110%;
+                color: #2A2A2A;
+                margin-bottom: 24px;
+                margin-bottom: 124px;
+            }
+
+            &-button:hover {
+                background: #6391a0;
+                transition: 0.4s;
+            }
+        }
+    }
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+}
+
+.modal-content {
+    border: 3px solid black;
+    border-radius: 100px;
+    position: relative;
+    padding: 40px;
+    width: 80%;
+    height: 40%;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+
+    @media screen and (max-width: 1354px) {
+        height: 70%;
+        background: #5496ac;
+        margin-top: 100px;
+    }
+
+    @media screen and (max-width: 1024px) {
+        height: 45%;
+    }
+
+    @media screen and (max-width: 820px) {
+        height: 55%
+    }
+
+    @media screen and (max-width: 520px) {
+        height: 100%
+    }
+
+    .phoneNumber {
+        @media screen and (max-width: 520px) {
+            margin-bottom: 20px;
+        }
+    }
+
+    .validateBtn {
+        @media screen and (max-width: 520px) {
+            width: 233px;
+            font-size: 18px;
+            height: 71px;
+        }
+    }
+
+
+    .formValidation {
+        @media screen and (max-width: 1354px) {
+            display: flex;
+            gap: 32px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
+.close {
+    color: white;
+    float: right;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.active {
+    overflow: hidden;
+    max-height: 100vh;
 }

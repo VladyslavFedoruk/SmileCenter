@@ -32,6 +32,10 @@ main {
   position: relative;
 }
 
+button {
+  cursor: pointer;
+}
+
 .header_content {
   display: flex;
   justify-content: space-between;
@@ -1807,4 +1811,646 @@ main {
 
 .slick-active > button {
   background: #2f6980 !important;
+}
+
+.dental {
+  margin-top: 61px;
+  height: 100%;
+}
+.dental .tabs {
+  margin: 0 auto;
+  margin-bottom: 115px;
+  display: flex;
+  gap: 43px;
+  justify-content: center;
+}
+.dental .b-tab {
+  padding: 10px;
+  display: none;
+}
+.dental .b-tab.active2 {
+  border: none;
+  display: block;
+}
+.dental .b-nav-tab {
+  border: none;
+  display: inline-block;
+  padding: 10px;
+  color: #2A2A2A;
+  width: 169px;
+  height: 64px;
+  background: #EAEAEA;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.dental .b-nav-tab.active2 {
+  color: #2A2A2A;
+  background: #C1E0EB;
+  border-radius: 20px;
+}
+.dental .buttonEstatic {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2A2A2A;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  fill: #808080;
+}
+.dental .buttonTerapevt {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2A2A2A;
+  display: flex;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  fill: #808080;
+}
+.dental .buttonOrtoped {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2A2A2A;
+  display: flex;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  fill: #808080;
+}
+.dental .buttonSurgery {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2A2A2A;
+  display: flex;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  fill: #808080;
+}
+.dental .buttonChild {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2A2A2A;
+  display: flex;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  fill: #808080;
+}
+.dental .buttonOrtodont {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2A2A2A;
+  display: flex;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  fill: #808080;
+}
+.dental .active2 svg {
+  fill: #497D8F;
+}
+.dental .estatic_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 110%;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: center;
+}
+.dental .estatic_services-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 94px;
+}
+.dental .estatic_services-list--item {
+  max-width: 424px;
+}
+.dental .estatic_services-list--item h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  color: #2A2A2A;
+  margin-bottom: 40px;
+}
+.dental .estatic_services-list--item .item_desc {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #4C4C4C;
+  margin-bottom: 40px;
+}
+.dental .estatic_services-list--item .item_price {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 130%;
+  color: #2A2A2A;
+}
+.dental .estatic_services-button {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto", sans-serif;
+  width: 223px;
+  height: 70px;
+  background: #F5F042;
+  border-radius: 35px;
+  border: 0;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 110%;
+  color: #2A2A2A;
+  margin-bottom: 24px;
+  margin-bottom: 124px;
+}
+.dental .estatic_services-button:hover {
+  background: #6391a0;
+  transition: 0.4s;
+}
+.dental .terapevt_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 110%;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: center;
+}
+.dental .terapevt_services-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 94px;
+}
+.dental .terapevt_services-list--item {
+  max-width: 430px;
+}
+.dental .terapevt_services-list--item h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  color: #2A2A2A;
+  margin-bottom: 40px;
+}
+.dental .terapevt_services-list--item .item_desc {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #4C4C4C;
+  margin-bottom: 40px;
+}
+.dental .terapevt_services-list--item .item_price {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 130%;
+  color: #2A2A2A;
+}
+.dental .terapevt_services-button {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto", sans-serif;
+  width: 223px;
+  height: 70px;
+  background: #F5F042;
+  border-radius: 35px;
+  border: 0;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 110%;
+  color: #2A2A2A;
+  margin-bottom: 24px;
+  margin-bottom: 124px;
+}
+.dental .terapevt_services-button:hover {
+  background: #6391a0;
+  transition: 0.4s;
+}
+.dental .ortoped_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 110%;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: center;
+}
+.dental .ortoped_services-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 94px;
+}
+.dental .ortoped_services-list--item {
+  max-width: 424px;
+}
+.dental .ortoped_services-list--item h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  color: #2A2A2A;
+  margin-bottom: 40px;
+}
+.dental .ortoped_services-list--item .item_desc {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #4C4C4C;
+  margin-bottom: 40px;
+}
+.dental .ortoped_services-list--item .item_price {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 130%;
+  color: #2A2A2A;
+}
+.dental .ortoped_services-button {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto", sans-serif;
+  width: 223px;
+  height: 70px;
+  background: #F5F042;
+  border-radius: 35px;
+  border: 0;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 110%;
+  color: #2A2A2A;
+  margin-bottom: 24px;
+  margin-bottom: 124px;
+}
+.dental .ortoped_services-button:hover {
+  background: #6391a0;
+  transition: 0.4s;
+}
+.dental .surgery_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 110%;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: center;
+}
+.dental .surgery_services-list {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 94px;
+}
+.dental .surgery_services-list--item h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  color: #2A2A2A;
+  margin-bottom: 40px;
+}
+.dental .surgery_services-list--item .item_desc {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #4C4C4C;
+  margin-bottom: 40px;
+}
+.dental .surgery_services-list--item .item_price {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 130%;
+  color: #2A2A2A;
+}
+.dental .surgery_services-button {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto", sans-serif;
+  width: 223px;
+  height: 70px;
+  background: #F5F042;
+  border-radius: 35px;
+  border: 0;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 110%;
+  color: #2A2A2A;
+  margin-bottom: 24px;
+  margin-bottom: 124px;
+}
+.dental .surgery_services-button:hover {
+  background: #6391a0;
+  transition: 0.4s;
+}
+.dental .child_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 110%;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: center;
+}
+.dental .child_services-list {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 94px;
+}
+.dental .child_services-list--item {
+  max-width: 731px;
+}
+.dental .child_services-list--item h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  color: #2A2A2A;
+  margin-bottom: 40px;
+}
+.dental .child_services-list--item .item_desc {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #4C4C4C;
+  margin-bottom: 40px;
+}
+.dental .child_services-list--item .item_price {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 130%;
+  color: #2A2A2A;
+}
+.dental .child_services-button {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto", sans-serif;
+  width: 223px;
+  height: 70px;
+  background: #F5F042;
+  border-radius: 35px;
+  border: 0;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 110%;
+  color: #2A2A2A;
+  margin-bottom: 24px;
+  margin-bottom: 124px;
+}
+.dental .child_services-button:hover {
+  background: #6391a0;
+  transition: 0.4s;
+}
+.dental .ortodont_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 110%;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: center;
+}
+.dental .ortodont_services-list {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 94px;
+}
+.dental .ortodont_services-list--item {
+  max-width: 731px;
+}
+.dental .ortodont_services-list--item h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  color: #2A2A2A;
+  margin-bottom: 40px;
+}
+.dental .ortodont_services-list--item .item_desc {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #4C4C4C;
+  margin-bottom: 40px;
+}
+.dental .ortodont_services-list--item .item_price {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 130%;
+  color: #2A2A2A;
+}
+.dental .ortodont_services-button {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto", sans-serif;
+  width: 223px;
+  height: 70px;
+  background: #F5F042;
+  border-radius: 35px;
+  border: 0;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 110%;
+  color: #2A2A2A;
+  margin-bottom: 24px;
+  margin-bottom: 124px;
+}
+.dental .ortodont_services-button:hover {
+  background: #6391a0;
+  transition: 0.4s;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.modal-content {
+  border: 3px solid black;
+  border-radius: 100px;
+  position: relative;
+  padding: 40px;
+  width: 80%;
+  height: 40%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+@media screen and (max-width: 1354px) {
+  .modal-content {
+    height: 70%;
+    background: #5496ac;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .modal-content {
+    height: 45%;
+  }
+}
+@media screen and (max-width: 820px) {
+  .modal-content {
+    height: 55%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .modal-content {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .modal-content .phoneNumber {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .modal-content .validateBtn {
+    width: 233px;
+    font-size: 18px;
+    height: 71px;
+  }
+}
+@media screen and (max-width: 1354px) {
+  .modal-content .formValidation {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+.close {
+  color: white;
+  float: right;
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.active {
+  overflow: hidden;
+  max-height: 100vh;
 }/*# sourceMappingURL=style.css.map */
