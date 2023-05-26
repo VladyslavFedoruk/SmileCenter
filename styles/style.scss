@@ -2986,6 +2986,10 @@ button {
         height: 100%
     }
 
+    @media screen and (max-width: 415px) {
+        height: 110%
+    }
+
     .phoneNumber {
         @media screen and (max-width: 520px) {
             margin-bottom: 20px;

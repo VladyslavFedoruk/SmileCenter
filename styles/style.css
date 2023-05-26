@@ -2675,6 +2675,11 @@ button {
     height: 100%;
   }
 }
+@media screen and (max-width: 415px) {
+  .modal-content {
+    height: 110%;
+  }
+}
 @media screen and (max-width: 520px) {
   .modal-content .phoneNumber {
     margin-bottom: 20px;
