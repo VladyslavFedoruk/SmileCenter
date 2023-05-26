@@ -1807,6 +1807,25 @@ button {
                         color: #3A6878;
                         transition: 0.5s;
                     }
+
+                    li>button {
+                        outline: none;
+                        background: none;
+                        border: 0;
+                        font-family: 'Roboto',
+                            sans-serif;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 130%;
+                        color: #2A2A2A;
+                        margin-bottom: 24px;
+                    }
+
+                    li>button:hover {
+                        color: #3A6878;
+                        transition: 0.5s;
+                    }
                 }
             }
 
